@@ -1,0 +1,1259 @@
+mixed-port: 10000
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:10100
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 1.0.0.1
+  nameserver:
+    - https://doh-de.blahdns.com/dns-query
+    - https://dns.comss.one/dns-query
+  fallback:
+    - https://doh-de.blahdns.com/dns-query
+    - https://dns.comss.one/dns-query
+  fallback-filter:
+    geoip: true
+
+proxies:
+  - {
+      name: ALB🇦🇱・Tirana,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ARG🇦🇷・Buenos Aires,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Brisbane,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Adelaide,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Sydney,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Melbourne,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: AUS🇦🇺・Perth,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: AUT🇦🇹・Vienna,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: AZE🇦🇿・Baku,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: BEL🇧🇪・Brussels,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: BIH🇧🇦・Sarajevo,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: BRA🇧🇷・Sao Paulo,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: BUL🇧🇬・Sofia,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: CAN🇨🇦・Vancouver,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: CAN🇨🇦・Toronto,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: CAN🇨🇦・Montreal,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: CHL🇨🇱・Santiago,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: COL🇨🇴・Bogota,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: CRI🇨🇷・San Jose,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: HRV🇭🇷・Zagreb,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: CYP🇨🇾・Nicosia,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: CZE🇨🇿・Prague,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: DEN🇩🇰・Copenhagen,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: EST🇪🇪・Tallinn,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: FIN🇫🇮・Helsinki,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: FRA🇫🇷・Paris,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: FRA🇫🇷・Bordeaux,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: FRA🇫🇷・Marseille,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: GEO🇬🇪・Tbilisi,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: GER🇩🇪・Berlin,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: GER🇩🇪・Frankfurt am Main,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: GRC🇬🇷・Athens,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: HKG🇭🇰・HongKong,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: HUN🇭🇺・Budapest,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ISL🇮🇸・Reykjavik,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: IND🇮🇳・Mumbai,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: IND🇮🇳・Chennai,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: IND🇮🇳・Indore,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: IDN🇮🇩・Jakarta,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: IRL🇮🇪・Dublin,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ISR🇮🇱・Tel Aviv,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ITA🇮🇹・Milan,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ITA🇮🇹・Rome,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: JPN🇯🇵・Tokyo,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: KAZ🇰🇿・Oral,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: LVA🇱🇻・Riga,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: LUX🇱🇺・Luxembourg,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: MYS🇲🇾・Kuala Lumpur,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: MEX🇲🇽・Mexico City,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: MDA🇲🇩・Chisinau,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: NLD🇳🇱・Amsterdam,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: NZL🇳🇿・Auckland,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: NGA🇳🇬・Lagos,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: MKD🇲🇰・Skopje,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: NOR🇳🇴・Oslo,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: PAN🇵🇦・Panama,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: PER🇵🇪・Lima,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: PHL🇵🇭・Manila,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: POL🇵🇱・Gdansk,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: POL🇵🇱・Warsaw,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: PRT🇵🇹・Lisbon,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: PRT🇵🇹・Porto,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ROU🇷🇴・Bucharest,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: RUS🇷🇺・Moscow,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: SRB🇷🇸・Belgrade,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: SGP🇸🇬・Singapore,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: SVK🇸🇰・Bratislava,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: SVN🇸🇮・Ljubljana,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ZAF🇿🇦・Johannesburg,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: KOR🇰🇷・Seoul,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ESP🇪🇸・Barcelona,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ESP🇪🇸・Madrid,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: ESP🇪🇸・Valencia,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: SWE🇸🇪・Stockholm,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: CHE🇨🇭・Zurich,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: TWN🇹🇼・Taichung City,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: THA🇹🇭・Bangkok,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: TUR🇹🇷・Istanbul,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: UKR🇺🇦・Kyiv,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: UAE🇦🇪・Dubai,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: GBR🇬🇧・Glasgow,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: GBR🇬🇧・London,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: GBR🇬🇧・Manchester,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Miami,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Ashburn,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・New York,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Tampa,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Buffalo,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Boston,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Latham,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Orlando,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Manassas,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Atlanta,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Detroit,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Houston,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・St. Louis,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Salt Lake City,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Charlotte,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Chicago,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Phoenix,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Kansas City,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Dallas,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Denver,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Seattle,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・San Francisco,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Las Vegas,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Los Angeles,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: USA🇺🇸・Bend,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: VEN🇻🇪・Caracas,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+  - {
+      name: VNM🇻🇳・Ho Chi Minh City,
+      server: 10.10.34.36,
+      port: 66890,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: PRO24P,
+      udp: true,
+    }
+proxy-groups:
+  - name: 🛠 MENU
+    type: select
+    proxies:
+      - ✈️ AUTOMATIC
+      - 🚀 MANUAL
+  - name: 🚀 MANUAL
+    type: select
+    proxies:
+      - ALB🇦🇱・Tirana
+      - ARG🇦🇷・Buenos Aires
+      - AUS🇦🇺・Brisbane
+      - AUS🇦🇺・Adelaide
+      - AUS🇦🇺・Sydney
+      - AUS🇦🇺・Melbourne
+      - AUS🇦🇺・Perth
+      - AUT🇦🇹・Vienna
+      - AZE🇦🇿・Baku
+      - BEL🇧🇪・Brussels
+      - BIH🇧🇦・Sarajevo
+      - BRA🇧🇷・Sao Paulo
+      - BUL🇧🇬・Sofia
+      - CAN🇨🇦・Vancouver
+      - CAN🇨🇦・Toronto
+      - CAN🇨🇦・Montreal
+      - CHL🇨🇱・Santiago
+      - COL🇨🇴・Bogota
+      - CRI🇨🇷・San Jose
+      - HRV🇭🇷・Zagreb
+      - CYP🇨🇾・Nicosia
+      - CZE🇨🇿・Prague
+      - DEN🇩🇰・Copenhagen
+      - EST🇪🇪・Tallinn
+      - FIN🇫🇮・Helsinki
+      - FRA🇫🇷・Paris
+      - FRA🇫🇷・Bordeaux
+      - FRA🇫🇷・Marseille
+      - GEO🇬🇪・Tbilisi
+      - GER🇩🇪・Berlin
+      - GER🇩🇪・Frankfurt am Main
+      - GRC🇬🇷・Athens
+      - HKG🇭🇰・HongKong
+      - HUN🇭🇺・Budapest
+      - ISL🇮🇸・Reykjavik
+      - IND🇮🇳・Mumbai
+      - IND🇮🇳・Chennai
+      - IND🇮🇳・Indore
+      - IDN🇮🇩・Jakarta
+      - IRL🇮🇪・Dublin
+      - ISR🇮🇱・Tel Aviv
+      - ITA🇮🇹・Milan
+      - ITA🇮🇹・Rome
+      - JPN🇯🇵・Tokyo
+      - KAZ🇰🇿・Oral
+      - LVA🇱🇻・Riga
+      - LUX🇱🇺・Luxembourg
+      - MYS🇲🇾・Kuala Lumpur
+      - MEX🇲🇽・Mexico City
+      - MDA🇲🇩・Chisinau
+      - NLD🇳🇱・Amsterdam
+      - NZL🇳🇿・Auckland
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・Salt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸・Bend
+      - VEN🇻🇪・Caracas
+      - VNM🇻🇳・Ho Chi Minh City
+  - name: ✈️ AUTOMATIC
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - ALB🇦🇱・Tirana
+      - ARG🇦🇷・Buenos Aires
+      - AUS🇦🇺・Brisbane
+      - AUS🇦🇺・Adelaide
+      - AUS🇦🇺・Sydney
+      - AUS🇦🇺・Melbourne
+      - AUS🇦🇺・Perth
+      - AUT🇦🇹・Vienna
+      - AZE🇦🇿・Baku
+      - BEL🇧🇪・Brussels
+      - BIH🇧🇦・Sarajevo
+      - BRA🇧🇷・Sao Paulo
+      - BUL🇧🇬・Sofia
+      - CAN🇨🇦・Vancouver
+      - CAN🇨🇦・Toronto
+      - CAN🇨🇦・Montreal
+      - CHL🇨🇱・Santiago
+      - COL🇨🇴・Bogota
+      - CRI🇨🇷・San Jose
+      - HRV🇭🇷・Zagreb
+      - CYP🇨🇾・Nicosia
+      - CZE🇨🇿・Prague
+      - DEN🇩🇰・Copenhagen
+      - EST🇪🇪・Tallinn
+      - FIN🇫🇮・Helsinki
+      - FRA🇫🇷・Paris
+      - FRA🇫🇷・Bordeaux
+      - FRA🇫🇷・Marseille
+      - GEO🇬🇪・Tbilisi
+      - GER🇩🇪・Berlin
+      - GER🇩🇪・Frankfurt am Main
+      - GRC🇬🇷・Athens
+      - HKG🇭🇰・HongKong
+      - HUN🇭🇺・Budapest
+      - ISL🇮🇸・Reykjavik
+      - IND🇮🇳・Mumbai
+      - IND🇮🇳・Chennai
+      - IND🇮🇳・Indore
+      - IDN🇮🇩・Jakarta
+      - IRL🇮🇪・Dublin
+      - ISR🇮🇱・Tel Aviv
+      - ITA🇮🇹・Milan
+      - ITA🇮🇹・Rome
+      - JPN🇯🇵・Tokyo
+      - KAZ🇰🇿・Oral
+      - LVA🇱🇻・Riga
+      - LUX🇱🇺・Luxembourg
+      - MYS🇲🇾・Kuala Lumpur
+      - MEX🇲🇽・Mexico City
+      - MDA🇲🇩・Chisinau
+      - NLD🇳🇱・Amsterdam
+      - NZL🇳🇿・Auckland
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・Salt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸・Bend
+      - VEN🇻🇪・Caracas
+      - VNM🇻🇳・Ho Chi Minh City
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - GEOIP,IR,DIRECT,
+  - MATCH,🛠 MENU
